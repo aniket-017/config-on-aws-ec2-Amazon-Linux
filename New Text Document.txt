@@ -1,0 +1,130 @@
+ sudo apt update
+    2  ~ sudo apt update
+    3  ~ sudo yum update -y
+    4  sudo yum update -y
+    5  curl -sL https://rpm.nodesource.com/setup_16.x | sudo bash -
+    6  sudo yum install -y nodejs
+    7   node -v
+    8   npm -v
+    9  sudo yum install git -y
+   10  ls
+   11  cd ..
+   12  ls
+   13  cd ec2-user/
+   14  ls
+   15  git clone https://github.com/aniket-017/progr.git
+   16  cd progr/
+   17  npm install
+   18  npm run dev
+   19  rm -rf progr
+   20  git clone https://github.com/aniket-017/progr.git
+   21  cd progr/
+   22  npm install
+   23  npm run dev
+   24  rm -rf progr
+   25  git clone https://github.com/aniket-017/progr.git
+   26  cd progr/
+   27  npm install
+   28  npm run dev
+   29  sudo amazon-linux-extras install nginx1.12 -y
+   30   sudo yum install nginx -y
+   31  sudo systemctl start nginx
+   32  sudo nano /etc/nginx/nginx.conf
+   33  sudo nginx -t
+   34  sudo systemctl restart nginx
+   35  sudo npm install pm2 -g
+   36  pm2 start npm --name "progressivegalaxy" -- run dev
+   37  cls
+   38  clear
+   39  cls
+   40  clear
+   41  ls
+   42  clear
+   43  ls
+   44  cd progr/
+   45  ls
+   46  cls
+   47  clear
+   48  history
+   49  pm2 list
+   50  cls
+   51  clear
+   52  ls
+   53  cd progr/
+   54  ls
+   55  cd ..
+   56  history
+   57  pm2 list
+   58  pm2 stop all
+   59  pm2 start
+   60  pm2 start all
+   61  sudo apt update
+   62  sudo nano /etc/nginx/sites-available/default
+   63  history
+   64  sudo nano /etc/nginx/nginx.conf
+   65  sudo systemctl restart nginx
+   66  sudo nginx -t
+   67  clear
+   68  sudo yum install openssl -y
+   69  cd /etc/nginx
+   70  sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/progressivegalaxy.com.key -out /etc/nginx/ssl/progressivegalaxy.com.crt
+   71  sudo mkdir -p /etc/nginx/ssl
+   72  sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/progressivegalaxy.com.key -out /etc/nginx/ssl/progressivegalaxy.com.crt
+   73  ls -l /etc/nginx/ssl/
+   74  sudo nginx -t
+   75  sudo systemctl restart nginx
+   76  sudo nano /etc/nginx/nginx.conf
+   77  sudo nginx -t
+   78  sudo nano /etc/nginx/nginx.conf
+   79  sudo nginx -t
+   80  sudo systemctl restart nginx
+   81  ssl_certificate /etc/nginx/ssl/progressivegalaxy.com.crt;
+   82  ssl_certificate_key /etc/nginx/ssl/progressivegalaxy.com.key;
+   83  sudo nano /etc/nginx/nginx.conf
+   84  sudo nginx -t
+   85  sudo systemctl restart nginx
+   86  ls -l /etc/nginx/ssl/progressivegalaxy.com.crt
+   87  ls -l /etc/nginx/ssl/progressivegalaxy.com.key
+   88  sudo chmod 600 /etc/nginx/ssl/progressivegalaxy.com.key
+   89  sudo chmod 644 /etc/nginx/ssl/progressivegalaxy.com.crt
+   90  pm2 restart
+   91  pm2 restart all
+   92  sudo systemctl restart nginx
+   93  sudo tail -f /var/log/nginx/error.log
+   94  sudo nano /etc/nginx/nginx.conf
+   95  sudo nginx -t
+   96  sudo nano /etc/nginx/nginx.conf
+   97  sudo nginx -t
+   98  sudo systemctl restart nginx
+   99  sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/progressivegalaxy.com.key -out /etc/nginx/ssl/progressivegalaxy.com.crt -subj "/C=US/ST=State/L=City/O=Organization/CN=progressivegalaxy.com"
+  100  sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048
+  101  sudo systemctl restart nginx
+  102  sudo nginx -t
+  103  sudo systemctl restart nginx
+  104  pm2 restart all
+  105  ls -l /etc/nginx/ssl/progressivegalaxy.com.crt
+  106  sudo nano /etc/nginx/nginx.conf
+  107  ssl_certificate /etc/nginx/ssl/progressivegalaxy.com.crt;
+  108  ssl_certificate /etc/nginx/ssl/progressivegalaxy.com.crt
+  109  sudo nano /etc/nginx/nginx.conf
+  110  sudo nginx -t
+  111  sudo systemctl restart nginx
+  112  pm2 restart all
+  113  ssl_certificate /etc/nginx/ssl/progressivegalaxy.com.crt;
+  114  ls -l /etc/nginx/ssl/progressivegalaxy.com.crt
+  115  ls -l /etc/nginx/ssl/progressivegalaxy.com.key
+  116  ls -l /etc/nginx/ssl/
+  117  sudo rm /etc/nginx/ssl/progressivegalaxy.com.crt
+  118  sudo rm /etc/nginx/ssl/progressivegalaxy.com.key
+  119  sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/progressivegalaxy.com.key -out /etc/nginx/ssl/progressivegalaxy.com.crt
+  120  sudo rm /etc/nginx/ssl/progressivegalaxy.com.crt
+  121  sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/progressivegalaxy.com.key -out /etc/nginx/ssl/progressivegalaxy.com.crt
+  122  ls -l /etc/nginx/ssl/progressivegalaxy.com.crt
+  123  ls -l /etc/nginx/ssl/progressivegalaxy.com.key
+  124  sudo systemctl restart nginx
+  125  curl -I https://progressivegalaxy.com
+  126  sudo yum install certbot python3-certbot-nginx
+  127  sudo certbot --nginx -d progressivegalaxy.com -d www.progressivegalaxy.com
+  128  curl -I https://progressivegalaxy.com
+  129  clear
+  130  history
