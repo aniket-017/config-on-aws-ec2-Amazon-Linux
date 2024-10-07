@@ -127,6 +127,6 @@
   127  sudo certbot --nginx -d progressivegalaxy.com -d www.progressivegalaxy.com
   128  curl -I https://progressivegalaxy.com
   129  clear
-  130  history
+ 
 
   //Setup for setting up SSl and hosting on ec2
